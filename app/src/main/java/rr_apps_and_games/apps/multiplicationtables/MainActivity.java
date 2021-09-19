@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     buffer.append(num + " × " + i + " = " + ans + "\n\n");
                 }
 
-                result.setText(buffer);
+                result.setText(buffer); //Set result text
                 break;
         }
 
